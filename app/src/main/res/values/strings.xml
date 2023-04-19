@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SQLite_Android</string>
+    <string-array name="category">
+        <item>Chưa thực hiện</item>
+        <item>Đang thực hiện</item>
+        <item>Hoàn thành</item>
+
+    </string-array>
+    <string-array name="category2">
+        <item>1 mình</item>
+        <item>Làm chung</item>
+
+    </string-array>
+</resources>

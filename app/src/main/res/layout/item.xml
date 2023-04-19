@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="5dp">
+    <LinearLayout
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <TextView
+                android:id="@+id/tvTitle"
+                android:text="Công việc 1"
+                android:textColor="@color/yellow"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"/>
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTitle2"
+            android:text="Nội dung"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="4/4/2023"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCategory"
+            android:text="Tình trạng"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCategory2"
+            android:text="cộng tác"
+            android:layout_marginLeft="10dp"
+
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
